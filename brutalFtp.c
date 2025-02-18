@@ -25,6 +25,7 @@
 		printf("=========================================\n");
 		printf("===       Brutal FTP by un1xhat       ===\n");
 		printf("=========================================\n");
+	    	sleep(5);
 		word = fopen(txt, "r");
 		if(word == NULL){
 		    perror("Open File Error");
